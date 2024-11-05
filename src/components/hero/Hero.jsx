@@ -9,7 +9,7 @@ import { useTheme } from "@emotion/react";
 import IconSection from "./IconSection";
 
 // @ts-ignore
-import photo1 from "../../Images/banner-17.jpg";
+// import photo1 from "../../Images/banner-17.jpg";
 // @ts-ignore
 import photo2 from "../../Images/banner-16.jpg";
 
@@ -109,7 +109,7 @@ const Hero = () => {
         </Swiper>
         <Box sx={{ display: { xs: "none", md: "block" }, minWidth: "26.4%" }}>
           <Box sx={{ position: "relative" }}>
-            <img width={"100%"} src={photo1} alt="" />
+            <img width={"100%"} src={import.meta.env.BASE_URL + "src/Images/banner-16.jgp"} alt="" />
             <Stack
               sx={{
                 position: "absolute",
