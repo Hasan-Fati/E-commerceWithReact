@@ -8,6 +8,11 @@ import "./slider.css";
 import { useTheme } from "@emotion/react";
 import IconSection from "./IconSection";
 
+// @ts-ignore
+import photo1 from "../../Images/banner-17.jpg";
+// @ts-ignore
+import photo2 from "../../Images/banner-16.jpg";
+
 const mySlider = [
   {
     text: "MEN",
@@ -104,7 +109,7 @@ const Hero = () => {
         </Swiper>
         <Box sx={{ display: { xs: "none", md: "block" }, minWidth: "26.4%" }}>
           <Box sx={{ position: "relative" }}>
-            <img width={"100%"} src="src/images/banner-17.jpg" alt="" />
+            <img width={"100%"} src={photo1} alt="" />
             <Stack
               sx={{
                 position: "absolute",
@@ -148,7 +153,7 @@ const Hero = () => {
             </Stack>
           </Box>
           <Box sx={{ position: "relative" }}>
-            <img width={"100%"} src="src/images/banner-16.jpg" alt="" />
+            <img width={"100%"} src={photo2} alt="" />
             <Stack
               sx={{
                 position: "absolute",
