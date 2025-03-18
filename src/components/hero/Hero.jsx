@@ -9,9 +9,9 @@ import { useTheme } from "@emotion/react";
 import IconSection from "./IconSection";
 
 // @ts-ignore
-import photo1 from "../../Images/banner-17.jpg";
-// @ts-ignore
-import photo2 from "../../Images/banner-16.jpg";
+// import photo1 from "../../Images/banner-17.jpg";
+// // @ts-ignore
+// import photo2 from "../../Images/banner-16.jpg";
 
 const mySlider = [
   {
